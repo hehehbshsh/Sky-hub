@@ -1,35 +1,3 @@
---[[
-
-Sky Hub
-
-By Sky/jazminethecooles2001
-
-games it supports Da Hood, Arsenal, Tower of Hell, KAT!, Fencing,
-Work At A Pizza Place, VR Hands, Adopt Me, Jailbreak, Prison Life,
-Build A Boat For Treasure, Gorilla Tag Professional, Murder Mystery 2, Blox Fruits, Counter Blox, Mic Up, Neighbors, Natural Disaster Survival, Ro-Ghoul, Blade Ball, Pet Simulator X,
-Pet Simulator 99, Legends of Speed, BrookHaven RP, Bedwars, CHAOS, Ninja Legends, Bayside High School, BIG PaintBall!, BIG PaintBall 2!, Muscle Legends, Road to Grambys, Bloxburg, Cursed Sea, Doors,
-Hide and Seek Extreme, Life in Paradise, Adopt and Raise a Baby, Zombie Attack, Super Simon Says, Life Sentence, Rainbow Friends, Infectious Smile, Colony Survival, Red Light, Green Light, 3008, 
-Guess the drawing!, VR Hangout, VR Hands Legacy, RIVALS, Lifting Simulator and Universal.
-50+ games (Including some obbys)
-
-Rebuilt On IllusionHub
-
-Last Updated 10/02/2024
-
-fixed scroll list limit (hiding sum tabs on universal mode) and added RIVALS and Lifting Simulator, removed rejgames.
-Library by Lua_u (modified by jazminethecooles2001)
-
-executor ui in fencing and universal made by espresso0069
-
-Road to Gramby scripts by Lua_u
-
-Rainbow Sunlock by therealxora https://discord.gg/iosexploiters
-
-IF YOU WANT ME TO ADD A GAME OR REPORT A BUG JOIN MY DISCORD SERVER OR DM ME
-
-https://discord.gg/xPDF3DkKhk
-
-]]--
 if game:GetService("CoreGui"):FindFirstChild("incognito") then
     oldstring = loadstring
     getfenv().loadstring = function(code)
